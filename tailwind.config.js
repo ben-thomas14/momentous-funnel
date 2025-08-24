@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+//** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -7,9 +7,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#0A2540', // dark navy similar to Momentous site
-        secondary: '#0070f3', // bright blue accent
-        accent: '#00B4D8', // lighter blue accent
+        primary: "#0a0a0a", // deep black similar to Momentous site
+        secondary: "#ffffff", // white for text on dark sections
+        accent: "#e86a33", // orange accent from Momentous branding
+      },
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
       },
     },
   },
